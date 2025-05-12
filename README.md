@@ -14,7 +14,7 @@ Welcome to my Data Analyst portfolio! This repository showcases a collection of 
 - **FMCG Sales Dashboard** (Power BI)
 
 ## 📫 Contact
-Feel free to connect with me on [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/th%C6%A1-nguy%E1%BB%85n-ho%C3%A0ng-85477b272/)) or reach out via email.
+Feel free to connect with me on [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/th%C6%A1-nguy%E1%BB%85n-ho%C3%A0ng-85477b272/)) or reach out via email:hoangthonguyen8695@gmail.com
 
 ---
 

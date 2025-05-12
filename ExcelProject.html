@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Excel Project - Tho Nguyen</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>DATA ANALYST PORFOLIO</strong> <span>by Tho Nguyen</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="AboutMe.html">About me</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+							<!--<li><a href="elements.html">Elements</a></li>-->
+						</ul>
+						<div class="dropup">
+							<button class="dropbtn">Portfolio Projects</button>
+							  <div class="dropup-content">
+									<a href="ExcelProject.html">Excel</a>
+									<a href="SQLProject.html">SQL</a>
+									<a href="PowerBiProject.html">Power BI</a>
+							</div>
+						 </div>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>COFFE SALES DASHBOARD</h1>
+							</header>
+							<div class="content">
+								<p>The ultimate purpose is to drive growth, optimize the sales mix, and strengthen the company’s competitive positioning in the FMCG coffee industry.<br />
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Goal</h2>
+									<p></p>
+									</header>
+									<p>The objective of this analysis is to identify actionable insights that will support the company's efforts to increase monthly and yearly coffee sales across key markets. By collecting and analyzing transactional, customer, and product-level data, the goal is to uncover trends and patterns that will inform strategic decisions across marketing, product development, distribution, and customer engagement.</p>
+
+									<a href="https://github.com/hoangtho8695/Data-Analyst-Project/blob/main/Excel-CoffeeSales-Dashboard.xlsx" target="_blank">Download from GitHub!</a>
+								</div>
+							</section>
+
+
+					<section id="two">
+						<div class="inner">
+						<h2>Setup</h2>
+							<p>To initiate the project, a comprehensive data cleaning process was conducted to ensure the reliability and accuracy of the analysis. This involved removing duplicate order records that could skew sales trends and insights. Key categorical variables were standardized for clarity—for instance, Coffee type values were updated from abbreviations ("Rob", "Exc", "Ara", "Lib") to full descriptors ("Robusta", "Excelsa", "Arabica", "Liberica"), and Roast Type values from "D", "M" and "L" to "Dark", "Medium" and "Light". Data was transformed into table to enhance segmentation analysis and visualization. Additionally, all missing values were addressed, and data types were verified and corrected to ensure consistency across all fields.</p>
+								<img src="images/coffee-cleaning.png" alt="Excel Worksheet after Data Cleaning" style="max-width: 100%; max-height: 100%;" data-position="center center" />
+							<p><i>Fig 1. This image shows the dataset after it was cleaned.</i></p>
+							<p>These steps established a clean and structured dataset, providing a solid foundation for meaningful business insights.</p>
+						</div>
+					</section>
+					<section id="three">
+						<div class="inner">
+							<h2>Analysis</h2>
+							<p>Now that we have clean data, we can perform exploratory data analysis to gain insights and patterns in the data.</p>
+							<h4>Business Questions:</h4>
+									<ol>
+										<li>Which countries or regions are driving the most sales?</li>
+										<li>Which types of coffee beans are most popular with our customers?</li>
+										<li>What roast levels do customers prefer—light, medium, or dark?</li>
+										<li>How do our monthly or seasonal sales fluctuate throughout the year?</li>
+										<li>What is the impact of loyalty programs on customer purchases?</li>
+									</ol>
+
+									<p>By answering these questions, the coffee company can develop a better understanding of their market share tailor their strategies to attract more customers, enhance product in sizes, types and expand geographic markets.</p>
+						</div>
+					</section>
+						<section id="four">
+							<div class="inner">
+									<h2>Data Exploration</h2>
+									<p>We will start by segmenting the product sales over time based on its types, sizes, geographic markets, loyalty customers, etc.</p>
+
+									<p> I used the sales data to create pivot tables that grouped the total sales based on different criteria. Using these groups, I created charts that show key insights. Additionally, differnt functions were used to perform calculations.</p>
+									<!-- <img src="images/excelbikepivot.png" alt="Excel Analysis" style="width:1000px;height:500px;" data-position="center center" /> -->
+
+						<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; background-color: #1e1e3f;">
+							  <div style="flex: 1 1 300px; max-width: 300px; height: 200px; display: flex; align-items: center; justify-content: center; background-color: white;">
+								<img src="images\Coffee-TotalSales.png" alt="Chart 1" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+							  </div>
+
+							  <div style="flex: 1 1 300px; max-width: 300px; height: 200px; display: flex; align-items: center; justify-content: center; background-color: white;">
+								<img src="images\Coffee-Top5Customers.png" alt="Chart 2" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+							  </div>
+
+							<div style="flex: 1 1 300px; max-width: 300px; height: 200px; display: flex; align-items: center; justify-content: center; background-color: white;">
+								<img src="images\Coffee-SalesByCountry.png" alt="Chart 2" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+							  </div>
+
+							<div style="flex: 1 1 300px; max-width: 300px; height: 200px; display: flex; align-items: center; justify-content: center; background-color: white;">
+								<img src="images\Coffee-SalesByTypes.png" alt="Chart 2" style="max-width: 100%; max-height: 100%; object-fit: contain;" />
+							  </div>
+							  <!-- Add more blocks as needed -->
+						</div>
+								<p><i>Fig 2. Those images show the different pivot tables and charts.</i></p>
+
+									<p>To make it easy to view all this information at once, I created a dashboard that displays all the charts. I also added a slicer to the dashboard, which allows users to filter the data based on different criteria. This makes it easy to identify all segments that are most likely to purchase coffee.</p>
+									<img src="images/coffee-dashboard.png" alt="Excel Sales Dashboard" style="max-width: 100%;max-height: 100%;" data-position="center center" />
+									<p><i>Fig 3. This image shows the Coffee Sales Dashboard.</i></p>
+						</div>
+						</section>
+
+						<section id="five">
+							<div class="inner">
+								<h2>Key Findings</h2>
+									<p>Using the dashboard, we were able to determine the following insights:
+									</p>
+									<ul>
+										<li>Top Market: Over $35,600 in sales came from the U.S.—far more than Ireland or the UK.</li>
+										<li>Best-Selling Coffee Types: Excelsa, Liberica, and Arabica outperform Robusta in sales.</li>
+										<li>Roast Preference: Light roasts dominate, generating more than $17,000, beating medium and dark roasts.</li>
+										<li>Monthly Sales Trends: Significant monthly sales growth seen mid-year (e.g., April 2019 saw a spike to $1,680+).</li>
+										<li>Loyalty Cards Drive Revenue: Customers with loyalty cards contributed $20,918 in sales vs. $24,216 without.</li>
+										<li>Geographic Markets: Only 3 countries are represented, with UK sales (~$2,799) lagging significantly.</li>
+
+									  </ul>
+							</div>
+						</section>
+						<section id="six">
+							<div class="inner">
+									<h2>Recommendations</h2>
+									<p>Based on these findings, the business can implement the following actionable steps to improve sales:</p>
+									<ul>
+										<li>Increase investment in U.S.-specific marketing, loyalty programs, and partnerships.</li>
+										<li>Highlight the Coffee types (Excelsa, Liberica and Arabica) in marketing campaigns and new product development (Robusta).</li>
+										<li>Emphasize light roast variants in retail displays and product launches</li>
+										<li>Plan major campaigns around high-performing months like April.</li>
+										<li>Expand loyalty programs and include exclusive discounts.</li>
+										<li>Explore underpenetrated regions for expansion or new partnerships.</li>
+									</ul>
+
+									<p>In conclusion, these findings provide valuable insights into the demographics and preferences of coffee sales. By implementing these actionable steps, the business can improve sales and better cater to the needs and interests of its target market.</p>
+								</div>
+							</section>
+					</div>
+				<br/>
+			</div>
+				<!-- Footer -->
+				<section class="split">
+					<section>
+						<h4 style="text-align: center;">Contact information</h4>
+					</section>
+				</section>
+					<footer id="footer" style="text-align: center;" >
+						<div class="inner" style="display: inline-block;">
+							<ul class="icons">
+								<li><a href="mailto:hoangthonguyen8695@gmai.com" target="_blank" class="icon solid alt fa-envelope"><span class="label">Mail</span></a></li>
+								<li><a href="https://github.com/hoangtho8695/hoangtho8695" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/th%C6%A1-nguy%E1%BB%85n-ho%C3%A0ng-85477b272/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
